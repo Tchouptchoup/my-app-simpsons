@@ -2,14 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.logoButton img.on {
+  animation: App-logo-spin infinite 1s linear;
+  height: 80px;
+}
+
+.logoButton img {
+  animation: App-logo-spin infinite 30s linear;
   height: 80px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 170px;
   padding: 20px;
   color: white;
 }
